@@ -1,0 +1,62 @@
+
+.window {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  width: 600px;
+  height: 400px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  padding-top: 40px;
+  overflow: hidden;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(10px);
+  padding: 12px 16px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+  cursor: move;
+  position: relative;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.header .controls {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.header .controls .dot {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: #ff605c;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.header .controls .dot:hover {
+  transform: scale(1.2);
+  opacity: 0.8;
+}
+
+.content {
+  padding: 20px;
+  background-color: #f9f9f9;
+  color: #333;
+  font-size: 14px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  height: calc(100% - 60px);
+  overflow-y: auto;
+}

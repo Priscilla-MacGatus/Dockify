@@ -1,0 +1,11 @@
+.desktopArea {
+  position: absolute;
+  top: 28px; 
+  bottom: 60px; 
+  left: 0;
+  right: 0;
+  padding: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
