@@ -1,0 +1,31 @@
+functionsDirectory = "/home/l0086/Documents/MY PROJECTS/Port-FoLio/macbook-portfolio/netlify/functions"
+functionsDirectoryOrigin = "ui"
+plugins = []
+headers = []
+redirects = []
+
+[functions]
+
+[functions."*"]
+
+[build]
+publish = "/home/l0086/Documents/MY PROJECTS/Port-FoLio/macbook-portfolio/dist"
+publishOrigin = "ui"
+commandOrigin = "ui"
+base = "/home/l0086/Documents/MY PROJECTS/Port-FoLio/macbook-portfolio"
+command = "npm run build"
+functions = "/home/l0086/Documents/MY PROJECTS/Port-FoLio/macbook-portfolio/netlify/functions"
+
+[build.environment]
+
+[build.processing]
+
+[build.processing.css]
+
+[build.processing.html]
+
+[build.processing.images]
+
+[build.processing.js]
+
+[build.services]
