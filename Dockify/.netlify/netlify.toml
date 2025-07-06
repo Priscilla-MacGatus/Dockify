@@ -1,4 +1,4 @@
-functionsDirectory = "/home/l0086/Documents/MY PROJECTS/Port-FoLio/macbook-portfolio/netlify/functions"
+functionsDirectory = "/home/l0086/Documents/MY PROJECTS/Dockify/Dockify/netlify/functions"
 functionsDirectoryOrigin = "ui"
 plugins = []
 headers = []
@@ -9,12 +9,12 @@ redirects = []
 [functions."*"]
 
 [build]
-publish = "/home/l0086/Documents/MY PROJECTS/Port-FoLio/macbook-portfolio/dist"
+publish = "/home/l0086/Documents/MY PROJECTS/Dockify/Dockify/dist"
 publishOrigin = "ui"
 commandOrigin = "ui"
-base = "/home/l0086/Documents/MY PROJECTS/Port-FoLio/macbook-portfolio"
+base = "/home/l0086/Documents/MY PROJECTS/Dockify/Dockify"
 command = "npm run build"
-functions = "/home/l0086/Documents/MY PROJECTS/Port-FoLio/macbook-portfolio/netlify/functions"
+functions = "/home/l0086/Documents/MY PROJECTS/Dockify/Dockify/netlify/functions"
 
 [build.environment]
 

@@ -44,12 +44,59 @@ function App() {
       )}
       {openWindows.includes("projects") && (
         <Window title="Projects" onClose={() => closeWindow("projects")}>
-          <p>My projects include portfolio sites, apps, and more.</p>
+          <div className={style.projects}>
+            <a href="https://deploy-preview-103--smart-cv-migracode.netlify.app/">
+              <div className={styles.icon}>
+                <img src="/file.png" alt="file" />
+                <span>SmartCV Pathfolio</span>
+              </div>
+            </a>
+
+            <a href="https://weather-app-by-pris.vercel.app/">
+              <div className={styles.icon}>
+                <img src="/file.png" alt="file" />
+                <span>The Weather App</span>
+              </div>
+            </a>
+
+            <a href="https://calcbypriscilla.vercel.app/">
+              <div className={styles.icon}>
+                <img src="/file.png" alt="file" />
+                <span>Calculator App</span>
+              </div>
+            </a>
+
+            <a href="https://flipcardsbycilla.vercel.app/">
+              <div className={styles.icon}>
+                <img src="/file.png" alt="file" />
+                <span>FlipCard Master</span>
+              </div>
+            </a>
+
+            <a href="https://currensyncbycilla.vercel.app/">
+              <div className={styles.icon}>
+                <img src="/file.png" alt="file" />
+                <span>CurrenSync</span>
+              </div>
+            </a>
+
+            <a href="https://rubycycle.vercel.app/">
+              <div className={styles.icon}>
+                <img src="/file.png" alt="file" />
+                <span>RubyCycle</span>
+              </div>
+            </a>
+          </div>
         </Window>
       )}
       {openWindows.includes("cv") && (
         <Window title="CV" onClose={() => closeWindow("cv")}>
-          <p>Download my CV here or view inline.</p>
+          <a href="./Priscilla-CV.pdf" download className={styles.cvLink}>
+            <div className={styles.icon}>
+              <img src="/file.png" alt="file" />
+              <span>CV</span>
+            </div>
+          </a>
         </Window>
       )}
       {openWindows.includes("settings") && (

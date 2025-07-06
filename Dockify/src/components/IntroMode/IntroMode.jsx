@@ -14,7 +14,7 @@ export default function IntroModal({ onClose }) {
         <p>
           Hello, I am Priscilla Mac-Gatus.
           <br />
-          Stay with me as I walk you through My Portfolio.
+          Stay with me as I walk you through My Desktop UI.
         </p>
         <button onClick={onClose}>Start</button>
       </div>
