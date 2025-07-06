@@ -47,7 +47,7 @@ function App() {
         <Window title="Projects" onClose={() => closeWindow("projects")}>
           <div className="projects">
             <a href="https://deploy-preview-103--smart-cv-migracode.netlify.app/">
-              <div className={styles.icon}>
+              <div className="icon">
                 <img src="/file.png" alt="file" />
                 <span>SmartCV Pathfolio</span>
               </div>
@@ -93,7 +93,7 @@ function App() {
       {openWindows.includes("cv") && (
         <Window title="CV" onClose={() => closeWindow("cv")}>
           <a href="./Priscilla-CV.pdf" download className="cvLink">
-            <div className={styles.icon}>
+            <div className="icon">
               <img src="/file.png" alt="file" />
               <span>CV</span>
             </div>
