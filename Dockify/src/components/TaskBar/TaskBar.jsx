@@ -16,6 +16,7 @@ export default function TaskBar({ openWindow }) {
         onDoubleClick={() => openWindow("projects")}
         className={styles.icon}
       />
+
       <img
         src="https://parsefiles.back4app.com/JPaQcFfEEQ1ePBxbf6wvzkPMEqKYHhPYv8boI1Rc/66c7ae19964613c774a3751916d496b3_yNBo22mIIb.png"
         alt="Settings"
@@ -23,32 +24,44 @@ export default function TaskBar({ openWindow }) {
         className={styles.icon}
       />
 
-      <img
-        src="https://parsefiles.back4app.com/JPaQcFfEEQ1ePBxbf6wvzkPMEqKYHhPYv8boI1Rc/52a9032482725eb55892b3887714af67_low_res_Calculator.png"
-        alt="Calculator"
-        className={styles.icon}
-      />
+      <a href="https://calcbypriscilla.vercel.app/">
+        <img
+          src="https://parsefiles.back4app.com/JPaQcFfEEQ1ePBxbf6wvzkPMEqKYHhPYv8boI1Rc/52a9032482725eb55892b3887714af67_low_res_Calculator.png"
+          alt="Calculator"
+          className={styles.icon}
+        />
+      </a>
+
       <img
         src="https://parsefiles.back4app.com/JPaQcFfEEQ1ePBxbf6wvzkPMEqKYHhPYv8boI1Rc/d1505a5ff95ae87f319e3384e784edf1_low_res_Google_Mail.png"
         alt="Contact"
         className={styles.icon}
-      />
-      <img
-        src="https://parsefiles.back4app.com/JPaQcFfEEQ1ePBxbf6wvzkPMEqKYHhPYv8boI1Rc/9f45dff68f65503e9d253cf03c5bbf2d_low_res_Weather__MacOS_Tahoe_.png"
-        alt="Weather"
-        className={styles.icon}
+        onDoubleClick={() => openWindow("contact")}
       />
 
-      <img
-        src="https://parsefiles.back4app.com/JPaQcFfEEQ1ePBxbf6wvzkPMEqKYHhPYv8boI1Rc/51f93886aae8020c24a499a78bc19be3_low_res_LinkedIn.png"
-        alt="LinkedIn"
-        className={styles.icon}
-      />
-      <img
-        src="https://parsefiles.back4app.com/JPaQcFfEEQ1ePBxbf6wvzkPMEqKYHhPYv8boI1Rc/dd177ee126e14e6b3b5e7a8bea50a599_low_res_GitHub_appicon.png"
-        alt="Github"
-        className={styles.icon}
-      />
+      <a href="https://weather-app-by-pris.vercel.app/">
+        <img
+          src="https://parsefiles.back4app.com/JPaQcFfEEQ1ePBxbf6wvzkPMEqKYHhPYv8boI1Rc/9f45dff68f65503e9d253cf03c5bbf2d_low_res_Weather__MacOS_Tahoe_.png"
+          alt="Weather"
+          className={styles.icon}
+        />
+      </a>
+
+      <a href="https://www.linkedin.com/in/priscilla-mac-gatus-920b0229a/">
+        <img
+          src="https://parsefiles.back4app.com/JPaQcFfEEQ1ePBxbf6wvzkPMEqKYHhPYv8boI1Rc/51f93886aae8020c24a499a78bc19be3_low_res_LinkedIn.png"
+          alt="LinkedIn"
+          className={styles.icon}
+        />
+      </a>
+
+      <a href="https://github.com/Priscilla-MacGatus/">
+        <img
+          src="https://parsefiles.back4app.com/JPaQcFfEEQ1ePBxbf6wvzkPMEqKYHhPYv8boI1Rc/dd177ee126e14e6b3b5e7a8bea50a599_low_res_GitHub_appicon.png"
+          alt="Github"
+          className={styles.icon}
+        />
+      </a>
     </div>
   );
 }
