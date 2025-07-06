@@ -4,7 +4,7 @@ import styles from "./Window.module.css";
 
 export default function Window({ title, onClose, children }) {
   return (
-    <Draggable handle={`.${styles.header}`}>
+    <Draggable handle={`.${styles.header}`} cancel={`.${styles.close}`}>
       <div className={styles.window}>
         <div className={styles.header}>
           <span>{title}</span>

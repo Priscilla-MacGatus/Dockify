@@ -33,6 +33,7 @@ function App() {
           <p>
             <b>"Crafting Seamless Digital Experiences"</b>
             <br />
+            <br />
             Priscilla Mac-Gatus is a dynamic developer and designer, passionate
             about transforming ideas into innovative, user-friendly digital
             experiences. With a keen eye for design and a strong coding
@@ -44,7 +45,7 @@ function App() {
       )}
       {openWindows.includes("projects") && (
         <Window title="Projects" onClose={() => closeWindow("projects")}>
-          <div className={style.projects}>
+          <div className="projects">
             <a href="https://deploy-preview-103--smart-cv-migracode.netlify.app/">
               <div className={styles.icon}>
                 <img src="/file.png" alt="file" />
@@ -53,35 +54,35 @@ function App() {
             </a>
 
             <a href="https://weather-app-by-pris.vercel.app/">
-              <div className={styles.icon}>
+              <div className="icon">
                 <img src="/file.png" alt="file" />
                 <span>The Weather App</span>
               </div>
             </a>
 
             <a href="https://calcbypriscilla.vercel.app/">
-              <div className={styles.icon}>
+              <div className="icon">
                 <img src="/file.png" alt="file" />
                 <span>Calculator App</span>
               </div>
             </a>
 
             <a href="https://flipcardsbycilla.vercel.app/">
-              <div className={styles.icon}>
+              <div className="icon">
                 <img src="/file.png" alt="file" />
                 <span>FlipCard Master</span>
               </div>
             </a>
 
             <a href="https://currensyncbycilla.vercel.app/">
-              <div className={styles.icon}>
+              <div className="icon">
                 <img src="/file.png" alt="file" />
                 <span>CurrenSync</span>
               </div>
             </a>
 
             <a href="https://rubycycle.vercel.app/">
-              <div className={styles.icon}>
+              <div className="icon">
                 <img src="/file.png" alt="file" />
                 <span>RubyCycle</span>
               </div>
@@ -91,7 +92,7 @@ function App() {
       )}
       {openWindows.includes("cv") && (
         <Window title="CV" onClose={() => closeWindow("cv")}>
-          <a href="./Priscilla-CV.pdf" download className={styles.cvLink}>
+          <a href="./Priscilla-CV.pdf" download className="cvLink">
             <div className={styles.icon}>
               <img src="/file.png" alt="file" />
               <span>CV</span>
