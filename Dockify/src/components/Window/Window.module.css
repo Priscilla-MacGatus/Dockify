@@ -26,7 +26,6 @@
   position: relative;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
-  padding-bottom: 12px;
 }
 
 .header .controls {
@@ -38,18 +37,19 @@
 }
 
 .header .controls .close {
-  width: 15px;
-  height: 15px;
+  width: 24px;
+  height: 24px;
   border-radius: 50%;
-  background-color: #2b2929;
+  background-color: white;
   font-weight: bold;
   cursor: pointer;
   transition: all 0.3s ease;
 }
 
-.header .controls .dot:hover {
+.header .controls .close:hover {
   transform: scale(1.2);
   opacity: 0.8;
+  background-color: red;
 }
 
 .content {
