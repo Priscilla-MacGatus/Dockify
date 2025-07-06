@@ -9,13 +9,15 @@ export default function Window({ title, onClose, children }) {
         <div className={styles.header}>
           <span>{title}</span>
           <div className={styles.controls}>
-            <div
-              className={styles.dot}
+            <p
+              className={styles.close}
               onClick={(e) => {
                 e.stopPropagation();
                 onClose();
               }}
-            ></div>
+            >
+              X
+            </p>
           </div>
         </div>
         <div className={styles.content}>{children}</div>

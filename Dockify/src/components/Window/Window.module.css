@@ -36,11 +36,12 @@
   gap: 10px;
 }
 
-.header .controls .dot {
+.header .controls .close {
   width: 18px;
   height: 18px;
   border-radius: 50%;
-  background-color: #ff605c;
+  background-color: #2b2929;
+  font-weight: bold;
   cursor: pointer;
   transition: all 0.3s ease;
 }
