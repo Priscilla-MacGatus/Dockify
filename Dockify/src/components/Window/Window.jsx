@@ -7,18 +7,16 @@ export default function Window({ title, onClose, children }) {
     <Draggable handle={`.${styles.header}`} cancel={`.${styles.close}`}>
       <div className={styles.window}>
         <div className={styles.header}>
-          <span>{title}</span>
           <div className={styles.controls}>
-            <p
+            <div
               className={styles.close}
               onClick={(e) => {
                 e.stopPropagation();
                 onClose();
               }}
-            >
-              X
-            </p>
+            ></div>
           </div>
+          <span className={styles.title} >{title}</span>
         </div>
         <div className={styles.content}>{children}</div>
       </div>
