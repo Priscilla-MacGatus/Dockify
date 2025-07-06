@@ -12,6 +12,13 @@
 }
 .time {
   font-size: 13px;
+  font-weight: 500;
+  color: #ffffff;
+  padding: 4px 8px;
+  border-radius: 8px;
+  font-family: "Courier New", monospace;
+  letter-spacing: 0.5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .image {
