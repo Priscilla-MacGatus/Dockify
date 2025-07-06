@@ -26,6 +26,7 @@
   position: relative;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
+  padding-bottom: 12px;
 }
 
 .header .controls {
@@ -37,8 +38,8 @@
 }
 
 .header .controls .close {
-  width: 18px;
-  height: 18px;
+  width: 15px;
+  height: 15px;
   border-radius: 50%;
   background-color: #2b2929;
   font-weight: bold;

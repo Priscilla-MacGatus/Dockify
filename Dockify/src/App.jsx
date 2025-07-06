@@ -95,7 +95,7 @@ function App() {
           <a href="./Priscilla-CV.pdf" download className="cvLink">
             <div className="icon">
               <img src="/file.png" alt="file" />
-              <span>CV</span>
+              <span>CV.pdf</span>
             </div>
           </a>
         </Window>
